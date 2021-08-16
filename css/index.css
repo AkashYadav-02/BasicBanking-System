@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Suez+One&display=swap');
+
+@media (min-width: 992px){
+    .navbar li {
+         align-items: center;
+        margin-right : 1em;
+    }
+}
+
+.bg{
+    background-image: url('../img/cover.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+  
+.vertical-center {
+    margin-top: 0;
+    position: absolute;
+    top: 100%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+h1{
+    background-color:  rgb(47, 47, 180);
+    color:whitesmoke;;
+    cursor: pointer;
+    color:whitesmoke;
+    text-align: center;
+    height: 70px;
+    margin-bottom: 10 px;
+    border: 10px;
+    height: auto;
+    transform: 1s;
+    font-family: 'Suez One', serif;
+
+}
+
+h1:hover{
+    background-color: #36c4b1;
+    color:rgb(34, 26, 26);
+    transition-duration: 1s;
+}
+
+
+.btn-button{
+    display: inline-block;
+    position: relative;
+    color: white;
+    background-color: rgb(24, 23, 23);
+
+}
+
+
+
+.navbar{
+    margin-bottom: 0 !important;
+    border: 0 !important;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.operations{
+    list-style: none;
+    border: 2px solid #fff;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 30px;
+    border-radius: 15px;
+    font-family: arial;
+}
+
+.operations button{
+    
+    text-decoration: none;
+    padding: 15px 35px;
+    display: block;
+    text-align: center;
+    box-shadow: #1c323d;
+}
+
+a{
+    text-decoration: none;
+}
+
+#red{
+    background-color: rgb(47, 47, 180);
+    color:whitesmoke;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 2px solid black;
+    width: 300px;
+    text-decoration: none;
+}
+
+
+
+#blue{ background-color: rgb(47, 47, 180);
+    color:whitesmoke;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 2px solid black;
+    width: 300px;
+    text-decoration: none;
+}
+
+
+
+#green{
+    background-color:rgb(47, 47, 180);
+    color: whitesmoke;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 2px solid black;
+    width: 300px;
+    text-decoration: none;
+}
+
+
+
+a #container {
+    min-height:100%;
+    position:relative;
+ }
+ 
+ #footer {
+    background-color:black;
+    padding:10px;
+    color: aliceblue;
+    height: auto;
+ }
+
+ #container #header{
+    background-color:#4e7392;
+    color: white;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 0 !important;
+    border: 0 !important;
+    margin-bottom: 5px;
+ }
